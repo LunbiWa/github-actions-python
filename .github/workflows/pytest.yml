@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: print github action context
         run: |
-          echo ${{ github.repositoryUrl }}
+          #echo ${{ github.repositoryUrl }}
           pwd
           ls -lh
       - name: checkout code
